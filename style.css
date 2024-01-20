@@ -1,1 +1,63 @@
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.material-symbols-outlined{
+color: rgb(96,96,96);
+
+}
+.header{
+    display: flex;
+    border:2px solid black;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 50px;
+
+}
+.header .headerLeft{
+    display: flex;
+    align-items:left;
+    border: 2px solid red;
+
+}
+.header .headerLeft img {
+width: 50px;
+margin-left: 10px;
+margin-bottom: 10px;
+
+
+}
+.header .headerLeft span{
+padding:0 10px;
+cursor: pointer;
+
+}
+.headerSearch form{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    border: 1px solid #ddd;
+
+}
+.headerSearch input{
+    width: 500px;
+    padding: 10px;
+    margin: 0;
+    height: 100%;
+    border: none;
+ 
+}
+.headerSearch button{
+    margin: 0;
+    padding: 0;
+    height: 1 px;
+    width: 50px;
+    border:none;
+
+
+
+}
